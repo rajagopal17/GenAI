@@ -1,5 +1,11 @@
 
-# Generative AI with RAG application
+# Generative AI with RAG application:
+
+This note book contains detailed design and code of RAG with opensource and enterprise LLMs
+
+         ## 1. RAG with open source platform - llamaIndex and Mistral
+
+
 ***Llama-index advanced retrievers with opensource llm (mistral):***
 
 ***Business case:***  Organizations have large amounts of proprietary data in shared drives. Timely access of such data in a organized way is usually a challenge
@@ -30,6 +36,9 @@ capabilities that enable fast and accurate processing of vast amounts of unstruc
 search functionalities make it an indispensable asset for organizations looking to improve their risk assessment, grading,
 and overall decision-making processes.
 
+           ## 2. RAG with enterprise platform and LLM
+
+
 # RAG with OpenAI Assistant
 #In this demo, the usage of OpenAI assistants functionality is provided.
 
@@ -38,7 +47,7 @@ and overall decision-making processes.
 *   we can create required number of assitants based on the required topic (each assistant queries its own vectorstore)
 
 
-*   each assistant need to be created as a function with detailed function name using gpt-3.5/ gpt-4o
+*   each assistant need to be created as a function with detailed function name using gpt-3.5
 *   then create a tool list with  the assistants (function names)
 
 
